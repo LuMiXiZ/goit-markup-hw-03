@@ -1,0 +1,215 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+ul, ol, a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+h2 {
+    font-weight: 700;
+    line-height: 1.11;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 15px;
+    border-bottom: solid 1px #E7E9FC;
+}
+.nav-menu {
+    display: flex;
+}
+.logo, .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.logo span {
+    color: #2e2f42;
+}
+.nav-list {
+    margin-left: 76px;
+    display: flex;
+    gap: 40px;
+}
+.nav-item {
+    color: #2e2f42;
+    font-weight: 500;
+}
+.nav-item:hover, 
+.nav-item:focus {
+    color: #404BBF;
+}
+.nav-item:active {
+    text-decoration: underline;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+.address-item {
+    font-style: normal;
+    color: #434455;
+}
+.address-item:hover,
+.address-item:focus {
+    color: #404BBF;
+}
+
+/* Main content styles */
+
+.section {
+    padding: 120px 0;
+    text-align: center;
+}
+.section:nth-child(3) {
+    background-color: #F4F4FD;
+}   
+.section:first-child {
+    background-color: #2e2f42;
+}
+
+/* Top section styles */
+
+.top-title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+.order-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
+/* Feature section styles */
+
+.feature-main-title {
+    display: none;
+}
+.feature-list {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.feature-title {
+    color: #2e2f42;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+/* Team section styles */
+
+.team-title {
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-card {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
+}
+.team-card-info {
+    padding: 32px 16px;
+}
+.team-card-name {
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+/* Portfolio section styles */
+
+.portfolio-title {
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.portfolio-card-info {
+    border: solid 1px #E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
+    text-align: left;
+}
+.portfolio-card-name {
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-logo-span {
+    color: #f4f4fd;
+}
+.footer-text {
+    margin-top: 16px;
+    color: #F4F4FD;
+}
